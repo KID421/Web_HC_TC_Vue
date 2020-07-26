@@ -118,3 +118,11 @@ Vue.component("navbar", {
 var navbar = new Vue({
     el: "#navbar"
 })
+
+Vue.component("time-box", {
+    template: "<div> {{ hour }} : {{ minute }} : {{ second }} </div>"
+})
+
+var time = new Vue({
+    el: ".time"
+})
