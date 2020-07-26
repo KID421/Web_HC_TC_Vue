@@ -106,11 +106,11 @@ var vue8 = new Vue({
 Vue.component("navbar", {
     template: `
     <nav>
-        <a href="#">關於我</a>
-        <a href="#">作品集</a>
-        <a href="#">LOGO</a>
-        <a href="#">最新消息</a>
-        <a href="#">聯絡我</a>
+        <a href="./about.html">關於我</a>
+        <a href="./work.html">作品集</a>
+        <a href="./index.html">LOGO</a>
+        <a href="./product.html">產品</a>
+        <a href="./contact.html">聯絡我</a>
     </nav>
     `
 })
